@@ -1,0 +1,172 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+.carousel-control.left 
+{
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.25) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.25) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.25)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.25) 0,rgba(0,0,0,.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control.right 
+{
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.25) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.25) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.25)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.25) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+/* ensure captions is visible */
+.carousel-caption {
+  z-index: 10;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+
+.carousel-control {
+    margin-top: 0;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-next, 
+.carousel-control .icon-prev
+{
+    font-size: 4rem;
+    margin-left: -20px;
+}
+.carousel-inner .item,
+.carousel .item
+{
+    width: 100%;
+    height: calc(100vh - 50px);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll; /* this is essential for carousel to scale properly on IOS devices */
+}
+
+/* begin fade effect between carousel images */
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+/* end fade effect between carousel images */
+.ad1 {
+    background: url(../images/IMG_1924.jpg) no-repeat center center fixed; 
+}
+.ad2 {
+    background: url(../images/IMG_0056.jpg) no-repeat center center fixed; 
+}
+.ad3 {
+    background: url(../images/IMG_1878.jpg) no-repeat center center fixed; 
+}
+.ad4 {
+    background: url(../images/IMG_0020.jpg) no-repeat center center fixed; 
+}
+.ad5 {
+    background: url(../images/IMG_1893.jpg) no-repeat center center fixed; 
+}
+.ad6 {
+    background: url(../images/front_on.jpg) no-repeat center center fixed;
+}
+.ad7 {
+    background: url(../images/ccc_interior.jpg) no-repeat center center fixed;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+div.container.marketing
+{
+    margin-top: -50px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+#myCarousel 
+{
+    width: 100%;
+    margin: 55px 0 80px 0;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+
+  /* Bump up size of carousel content */
+ /* .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+*/
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 992px) {
+    #myCarousel 
+    {
+        margin: 55px 0 70px 0;
+    }
+}

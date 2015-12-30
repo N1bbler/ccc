@@ -1,0 +1,362 @@
+/* Custom themes for Channel Cat Charters */
+/* RESETS and global settings */
+body
+{
+    scroll-behavior: smooth;
+}
+h1
+{
+    font-size: 4rem;
+}
+h2
+{
+    font-size: 3rem;
+}
+h3
+{
+    font-size: 2rem;
+}
+h1, h2, h3, h4, h5, h6,  {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+blockquote:before, 
+blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+.offset-top
+{
+    margin-top: 50px;
+}
+/* custom buttons */
+.btn {
+  margin: 0 0 20px 0;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  background-color: skyblue;
+  transition: all 1.0s ease;
+  width: 100%;
+  color: #FFF;
+}
+.btn:hover {
+  background-color: aliceblue;
+  font-size: 2.5em;
+  transition: all 1.0s ease;
+  color: #333;
+}
+/*.vtour-btn
+{
+    width: 360px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin: 0 0 0 -180px;
+}
+.vtour-btn .btn
+{
+    background-color: rgba(135,206,235,.85);
+}
+.vtour-btn .btn:hover
+{
+    background-color: rgba(240,248,255,.85);
+}*/
+#vtours
+{
+    scroll-behavior: smooth;
+}
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 0 0 20px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-heading {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.25;
+  /*letter-spacing: -1px;*/
+}
+/* virtual tour iframes */
+iframe
+{
+    border: 0; 
+    padding: 0; 
+    margin: 40px 0 0 20px; 
+    overflow: hidden;
+    width: 710px;
+    height: 400px;
+}
+
+/* Bootstrap Overrides */
+/* header and nav customizations */
+nav
+{
+    min-width: 550px;
+}
+.navbar-fixed-top 
+{
+    border-bottom: 5px solid skyblue;
+}
+
+.navbar-default
+{
+    /*background: rgba(255,255,255,0.95);*/
+    background-color: #FFF;
+    border-radius: 0;
+}
+/* prevent site logo from wrapping */
+.navbar-default .navbar-brand {
+    white-space: nowrap;
+}
+.navbar-default .navbar-brand>li>a,
+.navbar-default .navbar-nav>li>a
+{
+    color: #666;
+    transition: all .5s ease;
+    text-decoration: none;
+}
+.navbar-default .navbar-brand>li>a:hover,
+.navbar-default .navbar-nav>li>a:hover
+{
+    color: #333;
+    font-size: 2.5rem;
+    transition: all .5s ease;
+}
+.navbar-brand
+{
+    margin-top: -2px;
+    transition: all .5s ease;
+}
+.navbar-brand,
+.navbar-default .navbar-brand>li>a:hover
+{
+    font-variant: small-caps;
+    font-size: 3rem;
+    /*background-color: #FFF !important;*/
+}
+#navbar,
+.nav-tabs>li>a,
+a.accordion-link
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.open>a
+{
+    color: #FFF;
+    background-color: skyblue;
+    background-image: none;
+    box-shadow: none;
+}
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.open>a:hover
+{
+    background-color: aliceblue;
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+/* web font for logo and headers */
+.ccc-font
+{
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.5s ease;
+}
+
+/* Directions featured image */
+.dir-img,
+.ccc-map1
+{
+    margin: 30px 0 0 0;
+}
+.ccc-map1
+{
+    background:url(../images/ccc_map1.jpg) no-repeat center center; 
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border: 1px solid #DDD;
+    transition: all 1.0s ease;
+}
+/* call to action images */
+.special1
+{
+    background:url(../images/special_events.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 320px;
+    border: 1px solid #DDD;
+    transition: all 1.0s ease;
+}
+.charters1
+{
+    background:url(../images/IMG_0042.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 320px;
+    border: 1px solid #DDD;
+    transition: all 1.0s ease;
+}
+.prestigious1
+{
+    background:url(../images/IMG_2015.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 320px;
+    border: 1px solid #DDD;
+    transition: all 1.0s ease;
+}
+.special1 h3,
+.charters1 h3,
+.prestigious1 h3
+{
+    color: #FFF;
+    font-size: 3rem;
+    /*letter-spacing: 2px;*/
+    text-shadow: 0 1px 1px #000;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    padding: 0 20px 0 20px;
+    background-color: rgba(0,0,0,0.25);
+    /*border-radius: 10px;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* responsive design */
+@media (min-width: 1200px) {
+    iframe
+    { 
+        margin: 40px 0 0 68px;
+    }
+    .dir-img,
+    .ccc-map1
+    {
+        margin: 30px 0 0 15px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .dir-img,
+    .ccc-map1
+    {
+        margin: 30px 0 0 15px;
+    }    
+}
+@media (max-width: 992px) {
+    iframe 
+    {
+        margin: 0 0 0 5px;
+    }
+    .ccc-font
+    {
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+        .navbar-brand
+    {
+        font-size: 4rem;
+        transition: all 0.5s ease;
+    }
+}
+@media (max-width: 768px) {
+    iframe 
+    {
+        margin: 0 0 0 -5px;
+    }
+    .navbar-brand
+    {
+        font-size: 4rem;
+        transition: all 0.5s ease;
+    }
+    .ccc-font
+    {
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    .lead
+    {
+        font-size: 2.625rem;
+    }
+}
+@media (max-width: 640px) {
+    iframe 
+    {
+        margin: 0 0 0 -15px;
+    }
+    .navbar-brand
+    {
+        font-size: 4rem;
+        transition: all 0.5s ease;
+    }
+    .ccc-font
+    {
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+    .lead
+    {
+        font-size: 2.875rem;
+    }
+}
+@media (min-width: @screen-sm-min) {
+    .navbar-default
+    { 
+        transition: all 0.5s ease;
+    }
+}
