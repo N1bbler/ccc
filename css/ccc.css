@@ -263,7 +263,10 @@ a.accordion-link
     /*border-radius: 10px;*/
     font-family: 'Montserrat', sans-serif;
 }
-
+.gridder img
+{
+    cursor: pointer;
+}
 /* responsive design */
 @media (min-width: 1200px) {
     iframe
