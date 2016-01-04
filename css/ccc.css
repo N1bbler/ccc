@@ -357,6 +357,14 @@ a.accordion-link
         font-size: 2.875rem;
     }
 }
+@media (max-width: 375px) {
+    
+    .navbar-brand
+    {
+        font-size: 3rem;
+        transition: all 0.5s ease;
+    }
+}
 @media (min-width: @screen-sm-min) {
     .navbar-default
     { 
