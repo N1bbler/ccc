@@ -263,9 +263,52 @@ a.accordion-link
     /*border-radius: 10px;*/
     font-family: 'Montserrat', sans-serif;
 }
-.gridder img
+/* About us banner img */
+#about
 {
-    cursor: pointer;
+    background:url(../images/IMG_1995.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 472px;
+    border: 1px solid #DDD;
+    transition: all 1.0s ease;
+    position: relative;
+}
+.title-wrapper
+{
+    
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+#about h1
+{
+    color: #FFF;
+    font-size: 10rem;
+    line-height: 8rem;
+}
+#about p
+{
+    color: #FFF;
+    font-size: 3rem;
+    float: right;
+} 
+.about
+{
+    color: #CCC;
+    padding-top: 10px;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+    quotes: "\201C" "\201D" "\2018" "\2019"; 
+}
+.about:before 
+{
+    content: open-quote;
+    color: #EAEAEA;
+}
+.about:after 
+{
+    content: close-quote;
+    color: #EAEAEA;
 }
 /* responsive design */
 @media (min-width: 1200px) {
@@ -336,6 +379,10 @@ a.accordion-link
     {
         font-size: 2.625rem;
     }
+    #about h1
+    {
+        font-size: 8rem;
+    }
 }
 @media (max-width: 640px) {
     iframe 
@@ -356,6 +403,10 @@ a.accordion-link
     {
         font-size: 2.875rem;
     }
+    #about h1
+    {
+        font-size: 6rem;
+    }
 }
 @media (max-width: 375px) {
     
@@ -363,6 +414,10 @@ a.accordion-link
     {
         font-size: 3rem;
         transition: all 0.5s ease;
+    }
+    #about h1
+    {
+        font-size: 4rem;
     }
 }
 @media (min-width: @screen-sm-min) {
