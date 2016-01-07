@@ -295,20 +295,25 @@ a.accordion-link
 .about
 {
     color: #CCC;
-    padding-top: 10px;
+    padding-top: 5px;
     font-size: 4.5rem;
-    line-height: 4.75rem;
-    quotes: "\201C" "\201D" "\2018" "\2019"; 
+    line-height: 4.85rem; 
 }
 .about:before 
 {
     content: open-quote;
     color: #EAEAEA;
+    font-size: 5em;
+    line-height: 0;
+    vertical-align: -0.385em;
 }
 .about:after 
 {
     content: close-quote;
     color: #EAEAEA;
+    font-size: 5em;
+    line-height: 0;
+    vertical-align: -.635em;
 }
 /* responsive design */
 @media (min-width: 1200px) {
