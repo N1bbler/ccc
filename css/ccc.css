@@ -64,22 +64,11 @@ blockquote, q {
   transition: all 1.0s ease;
   color: #333;
 }
-/*.vtour-btn
+.g-btn
 {
-    width: 360px;
-    position: absolute;
-    bottom: 40px;
-    left: 50%;
-    margin: 0 0 0 -180px;
+    margin-left: -15px;
 }
-.vtour-btn .btn
-{
-    background-color: rgba(135,206,235,.85);
-}
-.vtour-btn .btn:hover
-{
-    background-color: rgba(240,248,255,.85);
-}*/
+
 #vtours
 {
     scroll-behavior: smooth;
@@ -207,6 +196,20 @@ a.accordion-link
     transition: all 0.5s ease;
 }
 
+#directions
+{
+  background:url(../images/directions.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 472px;
+    border: 1px solid #DDD;
+    transition: all 1.0s ease;
+    position: relative;
+    margin-top: 50px;
+}
+#d-content
+{
+    margin-top: 0px;
+}
 /* Directions featured image */
 .dir-img
 {
@@ -279,7 +282,8 @@ a.accordion-link
     right: 2%;
     bottom: 2%;
 }
-#about h1
+#about h1,
+#directions h1
 {
     color: #FFF;
     font-size: 10rem;
@@ -362,10 +366,6 @@ p.cattail,
     margin: 0 0 0 -15px;
     font-size: 2.45rem;
     color: #FFF;    
-}
-#directions
-{
-    margin-top: 50px;
 }
 /* responsive design */
 @media (min-width: 1200px) {
