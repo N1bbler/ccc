@@ -231,11 +231,7 @@ a.accordion-link
 }
 #c-footer
 {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    max-width: 960px;
-    margin-left: -480px;
+    margin: 10px auto;
 }
 .ccc-map1
 {
@@ -455,10 +451,6 @@ video
     {
         text-align: center;
         transition: all 0.5s ease;
-    }
-    #c-footer
-    {
-        display: none;
     }
 }
 
