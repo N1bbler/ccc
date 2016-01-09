@@ -6,3 +6,7 @@ $('.responsive-tabs').responsiveTabs({
 /* smooth scroll */
 
 
+function sendEmail() 
+{
+    window.location = "mailto:info@channelcatcharters.com";
+}

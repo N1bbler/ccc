@@ -35,6 +35,7 @@ blockquote, q {
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
+    border-bottom: 1px solid skyblue;
 }
 
 .offset-top
@@ -215,6 +216,20 @@ a.accordion-link
 {
     margin: 30px 0 0 0;
 }
+/* contact page */
+#contact
+{
+    background:url(../images/crew.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 100vh;
+    border: 1px solid #DDD;
+    transition: all 1.0s ease;
+    position: relative;
+}
+#c-content
+{
+    margin-top: 80px;
+}
 .ccc-map1
 {
     background:url(../images/ccc_map1.jpg) no-repeat center center; 
@@ -249,9 +264,37 @@ a.accordion-link
     border: 1px solid #DDD;
     transition: all 1.0s ease;
 }
+.charteragent
+{
+    background:url(../images/charter1.JPG) no-repeat center center; 
+    background-size: cover;
+    height: 320px;
+    border: 1px solid #DDD;
+    transition: all 1.0s ease;
+}
+.office
+{
+    background:url(../images/gallery/thumbs/front_on.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 320px;
+    border: 1px solid #DDD;
+    transition: all 1.0s ease;
+}
+.emailus
+{
+    background:url(../images/pilotsd.jpg) no-repeat center center; 
+    background-size: cover;
+    height: 320px;
+    border: 1px solid #DDD;
+    transition: all 1.0s ease;
+    cursor: pointer;
+}
 .special1 h3,
 .charters1 h3,
-.prestigious1 h3
+.prestigious1 h3,
+.charteragent h3,
+.office h3,
+.emailus h3
 {
     color: #FFF;
     font-size: 3rem;
@@ -261,9 +304,17 @@ a.accordion-link
     bottom: 0;
     right: 20px;
     padding: 0 20px 0 20px;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0,0,0,0.5);
     /*border-radius: 10px;*/
     font-family: 'Montserrat', sans-serif;
+}
+.c-footer
+{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 960px;
+    margin-left: -480px;
 }
 /* About us banner img */
 #about
@@ -283,11 +334,16 @@ a.accordion-link
     bottom: 2%;
 }
 #about h1,
-#directions h1
+#directions h1,
+#contact h1
 {
     color: #FFF;
     font-size: 10rem;
     line-height: 8rem;
+}
+#contact h1
+{
+    color: #666;
 }
 #about p
 {
@@ -393,6 +449,10 @@ p.cattail,
     {
         text-align: center;
         transition: all 0.5s ease;
+    }
+    .c-footer
+    {
+        display: none;
     }
 }
 
