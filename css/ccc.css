@@ -314,6 +314,7 @@ a.accordion-link
     /*border-radius: 10px;*/
     font-family: 'Montserrat', sans-serif;
 }
+
 /* About us banner img */
 #about
 {
@@ -467,7 +468,7 @@ video
     .navbar-header {
         float:none;
     }
-        .navbar-brand
+    .navbar-brand
     {
         font-size: 4rem;
         transition: all 0.5s ease;
@@ -483,6 +484,18 @@ video
         font-size: 4rem;
         transition: all 0.5s ease;
     }
+    .navbar-default .navbar-nav>li>a
+    {
+        font-size: 4rem;
+        line-height: 3rem;
+        transition: all 0.5s ease;
+    }
+    .navbar-default .navbar-nav>li>a:hover
+    {
+        font-size: 5rem;
+        line-height: 3rem;
+        transition: all 0.5s ease;
+    }
     .ccc-font
     {
         text-align: center;
@@ -495,6 +508,11 @@ video
     #about h1
     {
         font-size: 8rem;
+    }
+    .charteragent,
+    .office
+    {
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 640px) {
@@ -522,7 +540,6 @@ video
     }
 }
 @media (max-width: 375px) {
-    
     .navbar-brand
     {
         font-size: 3rem;
