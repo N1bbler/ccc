@@ -223,7 +223,6 @@ a.accordion-link
     background-size: cover;
     height: 100vh;
     border: 1px solid #DDD;
-    transition: all 1.0s ease;
     position: relative;
 }
 #c-content
