@@ -274,7 +274,7 @@ a.accordion-link
 {
     background:url(../images/charter1.JPG) no-repeat center center; 
     background-size: cover;
-    height: 320px;
+    height: 350px;
     border: 1px solid #DDD;
     transition: all .5s ease;
 }
@@ -282,7 +282,7 @@ a.accordion-link
 {
     background:url(../images/gallery/thumbs/front_on.jpg) no-repeat center center; 
     background-size: cover;
-    height: 320px;
+    height: 350px;
     border: 1px solid #DDD;
     transition: all .5s ease;
 }
@@ -290,7 +290,7 @@ a.accordion-link
 {
     background:url(../images/pilotsd.jpg) no-repeat center center; 
     background-size: cover;
-    height: 320px;
+    height: 350px;
     border: 1px solid #DDD;
     transition: all .5s ease;
     cursor: pointer;
@@ -307,11 +307,11 @@ a.accordion-link
     /*letter-spacing: 2px;*/
     text-shadow: 0 1px 1px #000;
     position: absolute;
-    bottom: 0;
+    bottom: -10px;
     right: 20px;
-    padding: 0 20px 0 20px;
+    padding: 5px 20px 5px 20px;
     background-color: rgba(0,0,0,0.5);
-    /*border-radius: 10px;*/
+    border-radius: 10px 10px 0 0;
     font-family: 'Montserrat', sans-serif;
 }
 
