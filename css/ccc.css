@@ -229,6 +229,14 @@ a.accordion-link
 {
     margin-top: 80px;
 }
+#c-footer
+{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    max-width: 960px;
+    margin-left: -480px;
+}
 .ccc-map1
 {
     background:url(../images/ccc_map1.jpg) no-repeat center center; 
@@ -306,14 +314,6 @@ a.accordion-link
     background-color: rgba(0,0,0,0.5);
     /*border-radius: 10px;*/
     font-family: 'Montserrat', sans-serif;
-}
-.c-footer
-{
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    width: 960px;
-    margin-left: -480px;
 }
 /* About us banner img */
 #about
@@ -422,6 +422,10 @@ p.cattail,
     font-size: 2.45rem;
     color: #FFF;    
 }
+video
+{
+    margin: 0 0 0 -15px;
+}
 /* responsive design */
 @media (min-width: 1200px) {
     iframe
@@ -449,7 +453,7 @@ p.cattail,
         text-align: center;
         transition: all 0.5s ease;
     }
-    .c-footer
+    #c-footer
     {
         display: none;
     }
