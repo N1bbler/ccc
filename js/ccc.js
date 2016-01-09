@@ -10,3 +10,7 @@ function sendEmail()
 {
     window.location = "mailto:info@channelcatcharters.com";
 }
+function contactUs() 
+{
+    location.href = "contact.html";
+}
