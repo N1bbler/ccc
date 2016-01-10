@@ -292,9 +292,18 @@ a.accordion-link
     background-size: cover;
     height: 350px;
     border: 1px solid #DDD;
-    transition: all .5s ease;
+    transition: all 1.0s ease;
     cursor: pointer;
 }
+
+.emailus:hover
+{
+    background:url(../images/crew_blk.jpg) no-repeat center center;
+    background-size: cover;
+    transition: all 1.0s ease;
+}
+
+
 .special1 h3,
 .charters1 h3,
 .prestigious1 h3,
