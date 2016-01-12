@@ -391,6 +391,7 @@ a.accordion-link
     color: #CCC;
     padding-top: 5px;
     font-size: 4.65rem;
+    letter-spacing: .25rem;
     line-height: 5.15rem; 
 }
 .about:before 
@@ -424,8 +425,15 @@ p.cattail,
 .cattail
 {
     font-size: 2.45rem;
+    letter-spacing: .25rem;
     color: #999;
 }
+
+q:before { content: '\201C'; }
+q:after { content: '\201D'; }
+q q:before { content: '\2018'; }
+q q:after { content: '\2019'; }
+
 .cat-img
 {
     margin: 35px 30px 0 0;
