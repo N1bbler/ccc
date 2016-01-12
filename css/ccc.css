@@ -251,6 +251,24 @@ a.accordion-link
     border: 1px solid #DDD;
     transition: all .5s ease;
 }
+.ccc-map-south
+{
+    background:url(../images/ccc_map_south.jpg) no-repeat center center; 
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border: 1px solid #DDD;
+    transition: all .5s ease;
+}
+.ccc-map-parking
+{
+    background:url(../images/ccc_map_parking.jpg) no-repeat center center; 
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    border: 1px solid #DDD;
+    transition: all .5s ease;
+}
 /* call to action images */
 .special1
 {
