@@ -428,7 +428,7 @@ p.cattail,
     letter-spacing: .25rem;
     color: #999;
 }
-
+/* smart quotes */
 q:before { content: '\201C'; }
 q:after { content: '\201D'; }
 q q:before { content: '\2018'; }
@@ -468,7 +468,7 @@ q q:after { content: '\2019'; }
 }
 video
 {
-    margin: 0 0 0 -15px;
+    margin: 0 0 15px -15px;
 }
 /* responsive design */
 @media (min-width: 1200px) {
