@@ -84,7 +84,6 @@ blockquote, q {
 .featurette-heading {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.25;
-  /*letter-spacing: -1px;*/
 }
 /* virtual tour iframes */
 iframe
@@ -224,6 +223,11 @@ a.accordion-link
     height: 100vh;
     border: 1px solid #DDD;
     position: relative;
+}
+#contact a
+{
+    color: #333;
+    letter-spacing: 2px;
 }
 #c-content
 {
@@ -469,6 +473,7 @@ q q:after { content: '\2019'; }
 video
 {
     margin: 0 0 15px -15px;
+    border: 1px solid #DEDEDE;
 }
 /* responsive design */
 @media (min-width: 1200px) {
