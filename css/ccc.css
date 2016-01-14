@@ -32,7 +32,7 @@ blockquote, q {
 	quotes: "" "";
 }
 
-/* remember to define focus styles! */
+/* custom focus styles */
 :focus {
 	outline: 0;
     border-bottom: 1px solid skyblue;
@@ -74,8 +74,7 @@ blockquote, q {
 {
     scroll-behavior: smooth;
 }
-/* Featurettes
-------------------------- */
+/* Featurettes */
 
 .featurette-divider {
   margin: 0 0 20px 0; /* Space out the Bootstrap <hr> more */
@@ -141,7 +140,6 @@ nav
 {
     font-variant: small-caps;
     font-size: 3rem;
-    /*background-color: #FFF !important;*/
 }
 #navbar,
 .nav-tabs>li>a,
@@ -333,7 +331,6 @@ a.accordion-link
     background-size: cover;
     transition: all 1.0s ease;
 }
-
 
 .special1 h3,
 .charters1 h3,
