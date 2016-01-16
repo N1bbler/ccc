@@ -74,16 +74,7 @@ blockquote, q {
 {
     scroll-behavior: smooth;
 }
-/* Featurettes */
 
-.featurette-divider {
-  margin: 0 0 20px 0; /* Space out the Bootstrap <hr> more */
-}
-
-.featurette-heading {
-  font-family: 'Montserrat', sans-serif;
-  line-height: 1.25;
-}
 /* virtual tour iframes */
 iframe
 {
@@ -230,6 +221,19 @@ a.accordion-link
 #c-content
 {
     margin-top: 80px;
+}
+/* Featurettes */
+
+.featurette-divider {
+  margin: 0 0 20px 0; 
+}
+.featurette-heading {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.25;
+}
+footer
+{
+    margin: 50px 0 0 0;
 }
 #c-footer
 {
