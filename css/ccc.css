@@ -52,7 +52,7 @@ blockquote, q {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   border: none;
-  border-radius: 0;
+  border-radius: 6px;
   padding: 10px;
   background-color: skyblue;
   transition: all 1.0s ease;
