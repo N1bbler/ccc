@@ -100,23 +100,31 @@ body {
     background: url(../images/IMG_1924.jpg) no-repeat center center fixed; 
 }
 .ad2 {
-    background: url(../images/IMG_0056.jpg) no-repeat center center fixed; 
+    background: url(../images/sunset.jpg) no-repeat center center fixed; 
 }
 .ad3 {
-    background: url(../images/IMG_1878.jpg) no-repeat center center fixed; 
+    background: url(../images/IMG_0056.jpg) no-repeat center center fixed; 
 }
 .ad4 {
-    background: url(../images/IMG_0020.jpg) no-repeat center center fixed; 
+    background: url(../images/IMG_1878.jpg) no-repeat center center fixed; 
 }
 .ad5 {
-    background: url(../images/IMG_1893.jpg) no-repeat center center fixed; 
+    background: url(../images/IMG_0020.jpg) no-repeat center center fixed; 
 }
 .ad6 {
-    background: url(../images/front_on.jpg) no-repeat center center fixed;
+    background: url(../images/IMG_1893.jpg) no-repeat center center fixed; 
 }
 .ad7 {
+    background: url(../images/front_on.jpg) no-repeat center center fixed;
+}
+.ad8 {
     background: url(../images/ccc_interior.jpg) no-repeat center center fixed;
 }
+.ad9 {
+    background: url(../images/schroeder.jpg) no-repeat center center fixed;
+}
+
+
 
 
 /* MARKETING CONTENT
