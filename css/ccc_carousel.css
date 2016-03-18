@@ -34,8 +34,8 @@ body {
 .carousel-caption 
 {
     z-index: 10;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 .carousel-indicators {
