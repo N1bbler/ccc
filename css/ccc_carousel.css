@@ -31,8 +31,12 @@ body {
 }
 
 /* ensure captions is visible */
-.carousel-caption {
-  z-index: 10;
+.carousel-caption 
+{
+    z-index: 10;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 .carousel-indicators {
     position: absolute;
