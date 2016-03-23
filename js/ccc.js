@@ -14,3 +14,7 @@ function contactUs()
 {
     location.href = "contact.html";
 }
+function printDir() 
+{
+    window.open("channel_cat_print_directions.pdf");
+}

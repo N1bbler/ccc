@@ -606,3 +606,13 @@ video
         transition: all 0.5s ease;
     }
 }
+#printBtn
+{
+    margin: 0 0 0 0;
+}
+@media (min-width: 1200px) {
+        #printBtn
+    {
+        margin: 20px 0 -20px 0;
+    }
+}
